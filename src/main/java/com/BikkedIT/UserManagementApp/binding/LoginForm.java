@@ -1,6 +1,6 @@
 package com.BikkedIT.UserManagementApp.binding;
 
-public class LoginFrom {
+public class LoginForm {
 	
 	
 	private String email;
@@ -17,7 +17,7 @@ public class LoginFrom {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public LoginFrom() {
+	public LoginForm() {
 		super();
 		// TODO Auto-generated constructor stub
 	}

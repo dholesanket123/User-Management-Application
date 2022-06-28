@@ -2,7 +2,7 @@ package com.BikkedIT.UserManagementApp.binding;
 
 import java.util.Date;
 
-public class UserFrom {
+public class UserForm {
 	
 	private Integer Id;
 	
@@ -104,7 +104,7 @@ public class UserFrom {
 		this.cityName = cityName;
 	}
 
-	public UserFrom() {
+	public UserForm() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
