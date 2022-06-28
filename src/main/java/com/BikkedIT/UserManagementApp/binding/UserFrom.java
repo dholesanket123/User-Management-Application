@@ -1,4 +1,4 @@
-package com.BikkedIT.UserManagementApp.bindings;
+package com.BikkedIT.UserManagementApp.binding;
 
 import java.util.Date;
 
