@@ -23,6 +23,10 @@ public class UserForm {
 	private String stateName;
 	
 	private String cityName;
+	
+	private String password;
+	
+	private String accountStatus;
 
 	public Integer getId() {
 		return Id;
@@ -55,7 +59,6 @@ public class UserForm {
 	public void setMail(String mail) {
 		this.mail = mail;
 	}
-
 	public String getPhnNo() {
 		return PhnNo;
 	}
@@ -104,10 +107,30 @@ public class UserForm {
 		this.cityName = cityName;
 	}
 
+	
+	
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getAccountStatus() {
+		return accountStatus;
+	}
+
+	public void setAccountStatus(String accountStatus) {
+		this.accountStatus = accountStatus;
+	}
+
 	public UserForm() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+
+	
 	
 	
 
